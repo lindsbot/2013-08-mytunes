@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
+    <div class="container"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="lib/jquery.js"></script>
     <script src="lib/underscore.js"></script>
     <script src="lib/backbone.js"></script>
 
     <script src="src/data.js"></script>
-
     <script src="src/Song.js"></script>
     <script src="src/Songs.js"></script>
     <script src="src/SongQueue.js"></script>
@@ -31,7 +46,7 @@
         var appView = new AppView({model: app});
 
         // put the view onto the screen
-        $('body').append(appView.render());
+        $('.container').append(appView.render());
       });
     </script>
   </body>

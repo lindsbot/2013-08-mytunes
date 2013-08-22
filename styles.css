@@ -1,0 +1,41 @@
+body{
+  background: lightgrey;
+}
+.container {
+  width: 950px;
+  margin: 0 auto;
+  padding:20px;
+  border: 1px solid silver;
+}
+table {
+  width: 300px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+tr:nth-child(even){
+  background-color: lightblue;
+}
+
+tr{
+  border-bottom: 1px solid grey;
+}
+
+tr:last-child{
+  border: 0;
+}
+
+
+td{
+  padding: 3px;
+}
+
+audio {
+  display: block;
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
